@@ -1,0 +1,147 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo geral */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Seções */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilo da imagem */
+img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos das seções */
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+/* Listas */
+ol, ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #333;
+}
+
+/* Tabela de habilidades */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+td {
+    background-color: #fff;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Seção de contato */
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+}
+
+.social-media img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+}
